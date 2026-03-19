@@ -8,7 +8,7 @@ def f(x):
 
 # ligningen vi skal løse
 def equation(x):
-    return np.arctan(x) - 4/(x**2 +1)
+    return np.arctan(x) - 4/(x**2 + 1)
 
 # Finn løsning (startverdi 1)
 x_max = fsolve(equation, 1)[0]
